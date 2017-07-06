@@ -1,0 +1,65 @@
+body{
+    overflow-x: hidden;
+}
+#navigation {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top:60px;
+}
+#navigation ul{
+    list-style: none;
+    padding: 0;
+    font-size: 24px;
+    font-family: arial;
+}
+
+#navigation ul li{
+    float: left;
+    padding-left:50px;
+    width: 80px;
+}
+#navigation ul li ul li{
+    clear: both;
+    display: block;
+    padding: 0;
+    font-size: 16px;
+}
+#navigation ul li ul li{
+    display: none;
+}
+#navigation ul li:hover ul li{
+    display: block;
+    background-color: white;
+}
+#navigation ul li ul li a{
+    text-decoration: none;
+    color:black;
+
+}
+#navigation ul li ul li{
+    padding: 7px;
+}
+footer{
+
+font-family: Arial;
+}
+header{
+ padding-left: 50px;   
+ font-family: Arial;
+}
+header h1 a{
+    text-decoration: none;
+    color:black;
+    font-family: Arial;
+}
+#content{
+    margin-top:100px;
+	margin-bottom:10px;
+    padding-left: 50px;
+}
+header img{
+    position: absolute;
+    top:10px;
+    right:40px;
+}
